@@ -7,4 +7,4 @@ npm install -g @angular/cli
 ```
 
 When an Angular application is running, see the result at
-[localhost:4200](localhost:4200).
+[localhost:4200](http://localhost:4200).
