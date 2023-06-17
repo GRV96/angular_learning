@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test.component.css']
 })
 export class TestComponent {
-  appName = "My first app in Angular 8";
+  appName: string = "My first app in Angular 8";
+  userName: string = "Peter";
 
   showData($event: any){ 
     console.log("button is clicked!");
