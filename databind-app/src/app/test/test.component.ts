@@ -9,6 +9,9 @@ export class TestComponent {
   appName: string = "My first app in Angular 8";
   userName: string = "Peter";
 
+  myCSSClass = "red"; 
+  applyCSSClass = false; 
+
   showData($event: any){ 
     console.log("button is clicked!");
 
