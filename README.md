@@ -18,6 +18,14 @@ of the
 [Angular tutorial](https://www.tutorialspoint.com/angular8/index.htm)
 on Tutorialspoint.
 
+## Directive App
+
+This application was made by following the instructions in chapter
+[*Directives*](https://www.tutorialspoint.com/angular8/angular8_directives.htm)
+of the
+[Angular tutorial](https://www.tutorialspoint.com/angular8/index.htm)
+on Tutorialspoint.
+
 ## Expense Manager
 
 This application was made by following the instructions in chapters
