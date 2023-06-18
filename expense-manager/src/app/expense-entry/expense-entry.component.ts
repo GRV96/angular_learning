@@ -7,12 +7,13 @@ import { ExpenseEntry } from '../expense-entry';
   styleUrls: ['./expense-entry.component.css']
 })
 export class ExpenseEntryComponent implements OnInit {
-  title!: string; // ! makes the initialization optional.
+  // ! makes the initialization optional.
+  title!: string;
   expenseEntry!: ExpenseEntry;
 
   constructor() {}
 
-  ngOnInit(){
+  ngOnInit() {
     this.title = "Expense Entry";
     this.expenseEntry = {
       id: 1,
