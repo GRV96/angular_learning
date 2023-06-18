@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./structural-directives.component.css']
 })
 export class StructuralDirectivesComponent {
+  loginName: string = "admin";
   loggedIn: boolean = false;
   loggedOut: boolean = true;
   numbers: number[] = [1, 2, 3, 4, 5, 6, 7];
