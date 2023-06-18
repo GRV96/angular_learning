@@ -4,6 +4,6 @@ export interface ExpenseEntry {
   amount: number;
   category: string;
   location: string;
-  spendOn: Date;
+  spentOn: Date;
   createdOn: Date;
 }
