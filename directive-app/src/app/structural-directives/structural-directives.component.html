@@ -1,3 +1,8 @@
-<h1>Directive ngIf</h1>
+<h2>Directive ngIf</h2>
 <p>Text displayed if *ngIf="true".</p>
 <p *ngIf="true">Display text.</p>
+
+<h2>Directive ngIfElse</h2>
+<p>A Boolean attribute changes the text.</p>
+<p *ngIf="loggedIn; else loggedOut">You're logged in!</p>
+<ng-template #loggedOut>You're not logged in.</ng-template>

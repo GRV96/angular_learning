@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./structural-directives.component.css']
 })
 export class StructuralDirectivesComponent {
-
+  loggedIn: boolean = false;
+  loggedOut: boolean = true;
 }
