@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-structural-directives',
+  selector: 'structural-directives',
   templateUrl: './structural-directives.component.html',
   styleUrls: ['./structural-directives.component.css']
 })
