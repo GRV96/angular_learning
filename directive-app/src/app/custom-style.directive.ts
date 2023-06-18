@@ -1,10 +1,11 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: '[appCustomStyle]'
+  selector: '[customStyle]'
 })
 export class CustomStyleDirective {
 
-  constructor() { }
-
+  constructor(el: ElementRef) {
+    el.nativeElement.style.fontSize = '24px';
+  }
 }
