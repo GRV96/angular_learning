@@ -17,7 +17,6 @@ This application was made by following the instructions in chapter
 of the [Angular tutorial](https://www.tutorialspoint.com/angular8/index.htm)
 on Tutorialspoint.
 
-
 ## Expense Manager
 
 This application was made by following the instructions in chapters
