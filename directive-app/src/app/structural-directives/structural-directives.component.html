@@ -6,3 +6,8 @@
 <p>A Boolean attribute changes the text.</p>
 <p *ngIf="loggedIn; else loggedOut">You're logged in!</p>
 <ng-template #loggedOut>You're not logged in.</ng-template>
+
+<h2>Directive ngFor</h2>
+<ul>
+  <li *ngFor="let n of numbers">{{n}}</li>
+</ul>

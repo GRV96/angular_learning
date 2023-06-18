@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class StructuralDirectivesComponent {
   loggedIn: boolean = false;
   loggedOut: boolean = true;
+  numbers = [1, 2, 3, 4, 5, 6, 7];
 }
